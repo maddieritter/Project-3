@@ -13,6 +13,10 @@
     font-size: 35px;
     color: white;
   }
+
+  h2 {
+    text-decoration: underline;
+  }
   
   section {
     display: -webkit-flex;
@@ -29,7 +33,9 @@
   
   nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 30px;
+    line-height: 40px;
+    font-size: larger;
   }
   
   article {
@@ -37,7 +43,8 @@
     -ms-flex: 3;
     flex: 3;
     background-color: #f1f1f1;
-    padding: 10px;
+    padding: 50px;
+    height: 450px;
   }
   
   footer {
